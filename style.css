@@ -1,0 +1,62 @@
+/* 
+Theme Name: Festival
+Theme URI: https://festival-du-burlesque.fr
+Author: Jérémy L.
+Author URI: https://jerlandew.fr
+Description: Création de thème WP pour le festival du burlesque
+Tags: bootstrap, responsive, dark-color
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+*/
+
+.logo{
+    font-size: 36px;
+}
+
+.active a{
+    color: red !important;
+    font-weight: bolder;
+}
+
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+form .wpcf7-submit{
+    width: 150px;
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
+}
+
+form *{
+    width: 100%;
+} 
+
+.fig img{
+    display: block;
+    margin: 0 auto;
+}
+
+.pg a{
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+
+.img-fw img{
+    height: 320px;
+    width: 240px;
+    display: block;
+    margin: 0 auto;
+}
